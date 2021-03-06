@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="626.0" prefWidth="873.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="Tf_Nom" layoutX="167.0" layoutY="139.0" />
+      <TextField fx:id="Tf_Cognom" layoutX="167.0" layoutY="205.0" />
+      <TextField fx:id="Tf_Edat" layoutX="167.0" layoutY="272.0" />
+      <Label layoutX="108.0" layoutY="143.0" text="Nom:" />
+      <Label layoutX="109.0" layoutY="209.0" text="Cognoms:" />
+      <Label layoutX="109.0" layoutY="276.0" text="Edat:" />
+      <Button fx:id="Bt_Afegir" layoutX="135.0" layoutY="338.0" mnemonicParsing="false" text="Afegir" />
+      <Button fx:id="Bt_Esborrar" layoutX="191.0" layoutY="338.0" mnemonicParsing="false" text="Esborrar" />
+      <Button fx:id="Bt_Actualitzar" layoutX="262.0" layoutY="338.0" mnemonicParsing="false" text="Actualitzar" />
+      <Button fx:id="Bt_Reset" layoutX="195.0" layoutY="384.0" mnemonicParsing="false" text="Reset" />
+   </children>
+</AnchorPane>
