@@ -70,7 +70,7 @@ class AlumneEditor: View() {
                 }catch(error:NumberFormatException){
                     alert(Alert.AlertType.ERROR, "", "El camp Edat no te el format correcte o esta buit!!!")
                 }
-               // inicialitzacamps()
+                inicialitzacamps()
             }
 
             botoEsborrar.setOnMouseClicked {
